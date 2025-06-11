@@ -7,10 +7,15 @@ const Header = () => {
     <header className="bg-primary py-16 px-4 sm:px-6 lg:px-8">
       <section className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Text Content */}
-        <div className="text-white space-y-6">
+        <div className="space-y-6 text-black">
           <h2 className="text-4xl md:text-5xl font-bold text-yellow-400">
             Little Lemon
           </h2>
+          {/* <p className="text-lg max-w-lg ">
+            Welcome to Little Lemon – a cozy, family-owned Mediterranean restaurant located in the heart of Chicago. At Little Lemon, we bring traditional Mediterranean flavors to life with a modern twist. Whether you're celebrating a birthday, anniversary, or simply enjoying a night out, our welcoming atmosphere and hand-crafted dishes offer the perfect dining experience.
+
+            Easily reserve a table online, choose from available time slots, and let us handle the rest. Your delicious journey starts here.
+          </p> */}
           <h3 className="text-2xl md:text-3xl font-semibold">Chicago</h3>
           <p className="text-lg max-w-lg">
             We are a family owned Mediterranean restaurant, focused on traditional
@@ -18,7 +23,7 @@ const Header = () => {
           </p>
           <Link to="/Booking">
             <button
-              className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-3 px-6 rounded-lg shadow-md transition duration-300"
+              className="bg-yellow-400 hover:bg-yellow-300 my-6 text-gray-900 font-bold py-3 px-6 rounded-lg shadow-md transition duration-300"
               aria-label="Reserve a table"
             >
               Reserve Table
